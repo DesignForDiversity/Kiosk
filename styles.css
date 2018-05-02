@@ -1,0 +1,100 @@
+header{
+  width:100%;
+  background-color:#f2f2f2;
+position:absolute;
+height:90px;
+}
+
+header h1{
+  margin:0px;
+  padding:0px;
+  color:#660033;
+}
+
+header h2{
+  margin:0px;
+  padding:0px;
+  color:#660033;
+}
+
+header p{
+  margin:0px;
+  padding:0px;
+  color:#660033;
+}
+
+#subhead1{
+  float:left;
+  clear:left;
+}
+
+#subhead2{
+  float:right;
+  clear:right;
+}
+
+ul{
+  list-style-type:none;
+  margin:0px;
+  padding-top:40px;
+  position:fixed;
+  right:0px;
+}
+
+li{
+  padding-top:102px;
+}
+
+@keyframes extend {
+    0%   {padding-left:0px;}
+    100% {padding-left:500px;}
+}
+
+a:link{
+  padding-top:52px;
+  padding-left:500px;
+  padding-bottom:50px;
+}
+
+#link1{
+  animation-name: extend;
+  animation-duration: 4s;
+  background-color:#7070db;
+}
+
+#link2{
+  animation-name: extend;
+  animation-duration: 3s;
+  background-color:#ff80aa;
+}
+#link3{
+  animation-name: extend;
+  animation-duration: 5s;
+  background-color:#ffcc66;
+}
+#link4{
+  animation-name: extend;
+  animation-duration: 3s;
+  background-color:#99ff99;
+}
+#link5{
+  animation-name: extend;
+  animation-duration: 6s;
+  background-color:#99ffff;
+}
+#link6{
+  animation-name: extend;
+  animation-duration: 4s;
+  background-color:#cc99ff;
+}
+
+#link7{
+  animation-name: extend;
+  animation-duration: 5s;
+  background-color:#ffff66;
+}
+#link8{
+  animation-name: extend;
+  animation-duration: 3s;
+  background-color:#ff9999;
+}
