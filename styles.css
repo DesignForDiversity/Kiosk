@@ -38,13 +38,13 @@ header p{
 ul{
   list-style-type:none;
   margin:0px;
-  padding-top:90px;
+  padding-top:65px;
   position:fixed;
   right:0px;
 }
 
 li{
-  padding-top:67px;
+  padding-top:71px;
   text-align:center;
   width:500px;
 }
@@ -55,10 +55,15 @@ li{
 }
 
 a:link{
-  padding-top:34px;
+  padding-top:36px;
   padding-left:250px;
-  padding-bottom:34px;
+  padding-bottom:36px;
   padding-right:250px;
+  text-decoration:none;
+}
+
+a:visited{
+  text-decoration:none;
 }
 
 img{
@@ -120,15 +125,44 @@ img{
   animation-duration: 3s;
   background-color:#99ff99;
 }
+
+#fiona{
+  background-color:#99ff99;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
+}
+
 #link5{
   animation-name: extend;
   animation-duration: 6s;
   background-color:#99ffff;
 }
+
+#crystal{
+  background-color:#99ffff;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
+}
+
 #link6{
   animation-name: extend;
   animation-duration: 4s;
   background-color:#cc99ff;
+}
+
+#cherilyn{
+  background-color:#cc99ff;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
 }
 
 #link7{
@@ -136,10 +170,29 @@ img{
   animation-duration: 5s;
   background-color:#ffff66;
 }
+
+#elle{
+  background-color:#ffff66;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
+}
+
 #link8{
   animation-name: extend;
   animation-duration: 3s;
   background-color:#ff9999;
+}
+
+#anthony{
+  background-color:#ff9999;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
 }
 
 #link9{
@@ -148,13 +201,41 @@ img{
   background-color:#80ffbf;
 }
 
+#zhaohui{
+  background-color:#80ffbf;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
+}
+
 #link10{
   animation-name: extend;
   animation-duration: 4s;
   background-color:#a64dff;
 }
+
+#daria{
+  background-color:#a64dff;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
+}
+
 #link11{
   animation-name: extend;
   animation-duration: 3s;
   background-color:#ff99ff;
+}
+
+#violet{
+  background-color:#ff99ff;
+  width:72%;
+  height:100%;
+  position:absolute;
+  top:100px;
+  display:none;
 }
