@@ -1,8 +1,10 @@
 header{
   width:100%;
   background-color:#f2f2f2;
-position:absolute;
-height:90px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:100px;
 }
 
 header h1{
@@ -36,24 +38,27 @@ header p{
 ul{
   list-style-type:none;
   margin:0px;
-  padding-top:40px;
+  padding-top:75px;
   position:fixed;
   right:0px;
 }
 
 li{
-  padding-top:102px;
+  padding-top:67px;
+  text-align:center;
+  width:500px;
 }
 
 @keyframes extend {
     0%   {padding-left:0px;}
-    100% {padding-left:500px;}
+    100% {padding-left:250px;}
 }
 
 a:link{
-  padding-top:52px;
-  padding-left:500px;
-  padding-bottom:50px;
+  padding-top:34px;
+  padding-left:250px;
+  padding-bottom:34px;
+  padding-right:250px;
 }
 
 #link1{
@@ -97,4 +102,21 @@ a:link{
   animation-name: extend;
   animation-duration: 3s;
   background-color:#ff9999;
+}
+
+#link9{
+  animation-name: extend;
+  animation-duration: 2s;
+  background-color:#80ffbf;
+}
+
+#link10{
+  animation-name: extend;
+  animation-duration: 4s;
+  background-color:#a64dff;
+}
+#link11{
+  animation-name: extend;
+  animation-duration: 3s;
+  background-color:#ff99ff;
 }
