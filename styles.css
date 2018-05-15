@@ -13,7 +13,8 @@ header h1{
   margin-bottom:0px;
   padding:0px;
   color:#660033;
-  font-size:50px;
+  font-size:78px;
+  text-transform: lowercase;
 }
 
 header h2{
@@ -27,8 +28,9 @@ header p{
   margin:0px;
   padding:0px;
   color:#660033;
-  font-size:30px;
-  font-family: 'Londrina Solid';
+  font-size:20px;
+  font-family: 'Roboto';
+  text-align:right;
 }
 
 h1{
@@ -84,7 +86,8 @@ a:link{
   text-decoration:none;
   font-family: 'Londrina Solid';
   color:#660033;
-  font-size:30px;
+  font-size:35px;
+  text-transform: lowercase;
 }
 
 a:visited{
@@ -93,26 +96,46 @@ a:visited{
   color:#660033;
 }
 
+@keyframes imgright {
+    0%   {margin-left:-500px;}
+    100% {margin-left:170px;}
+}
+
 img{
   margin-top:100px;
   margin-left:170px;
+  animation-name: imgright;
+  animation-duration: 4s;
+}
+
+@keyframes capright {
+  0%   {margin-left:-500px;}
+  100% {margin-left:170px;}
 }
 
 #caption{
   margin-left:170px;
   color:#660033;
   width:100%;
+  animation-name: capright;
+  animation-duration: 3s;
 }
 
 #caption h2{
   font-size:40px;
   margin-bottom:8px;
   margin-top:8px;
+  text-transform: lowercase;
 }
 
 #caption p{
   margin-bottom:5px;
   font-size:20px;
+}
+
+@keyframes linkright {
+    0%   {left:-500px;}
+    100% {left:545px;}
 }
 
 #caption a:link, a:visited{
@@ -132,6 +155,8 @@ img{
   padding-bottom:4px;
   padding-right:10px;
   box-shadow: 10px 10px 5px #660033;
+  animation-name: linkright;
+  animation-duration: 4s;
 }
 
 #link1{
@@ -140,12 +165,21 @@ img{
   background-color:#7070db;
 }
 
+@keyframes boxright {
+    0%   {left:-2000px;}
+    100% {left:0px;}
+}
+
+/*right now, only sandra, but also, right now, always sandra! maybe letter spacing increase on the links? ok for them to go past where they need to, just make all the animations faster*/
+
 #sandra{
   background-color:#7070db;
   width:75%;
   height:980px;
   position:absolute;
   top:100px;
+  animation-name: boxright;
+  animation-duration: 3s;
 }
 
 #link2{
