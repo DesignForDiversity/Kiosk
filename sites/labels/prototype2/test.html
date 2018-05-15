@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Prototype2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+
+<body>
+	<script src="../../studio3/build/three.js"></script>
+	<script src="../../studio3/js/libs/tween.min.js"></script>
+	<script src="../../studio3/js/controls/TrackballControls.js"></script>
+	<script src="../../studio3/js/renderers/CSS3DRenderer.js"></script>
+	<script src="../../studio3/js/randomColor.js"></script>
+
+	<div id="container"></div>
+	<div id="instructions" class="show">
+		<h1>Instructions</h1>
+		<ul>
+			<li>Click LABELS in menu to start your exploration</li>
+			<li>Make sure to ckeck out the MESSAGE tab</li>
+			<li>Go to RESOURCES for links to more information</li>
+			<li>Scrol to zoom, drag to change perspective, click on current menu button to clear filter and reset perspective</li>
+		</ul>
+		<h2>Sources</h2>
+		<ul>
+			<li><a href = "http://itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/" target=_blank>Comprehensive List of LGBTQ+ Vocabulary Definitions</a></li>
+			<li><a href = "http://www.pflagnyc.org/links" target=_blank>Links to Recommended LGBT Resources Online</a></li>
+	</div>
+	<div id="menu">
+		<button id="instruction"> INSTRUCTION</button>
+		<button id="sphere">LABELS</button>
+		<button id="messagePage">MESSAGE</button>
+		<button id="resources">RESOURCES</button>
+	</div>
+	<div id="filter" class="hide">
+		<div id="red">
+			<h3>Attractions</h3></div>
+		<div id="blue">
+			<h3>Genders</h3></div>
+		<div id="yellow">
+			<h3>Other Terms</h3></div>
+	</div>
+
+	<script src="test.js"></script>
+</body>
+
+</html>
