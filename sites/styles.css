@@ -1,0 +1,12 @@
+/* A back button for each student project site which includes:
+- A recognizable colorscheme
+- A white arrow
+- A dropshadow
+- A z-position
+- A touchscreen capability */
+
+#back-button {
+    height: 100px;
+    width: 100px;
+    color: orange;
+}
