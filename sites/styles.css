@@ -9,15 +9,20 @@ body {
     background-color: grey;
 }
 
-#return-to-main {
+#return-to-main div {
     z-index: 100;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     height: 110px;
     width: 110px;
     background-color: #80ffbf;
+    position: fixed;
+    left: 0px;
+    top: 490px;
+    filter: drop-shadow(8px 4px 10px #333);
 }
 
 #return-to-main img {
-    margin: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
