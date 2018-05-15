@@ -92,7 +92,7 @@ a:link{
   padding-right:600px;
   text-decoration:none;
   font-family: 'Londrina Solid';
-  color:white;
+  color:#ffffff;
   font-size:35px;
   text-transform: lowercase;
 }
@@ -100,7 +100,7 @@ a:link{
 a:visited{
   text-decoration:none;
   font-family: 'Londrina Solid';
-  color:white;
+  color:#ffffff;
 }
 
 @keyframes imgright {
@@ -141,7 +141,26 @@ img{
     100% {left:510px;}
 }
 
-#caption a:link, a:visited{
+#caption a:link{
+  font-family: 'Londrina Solid';
+  font-style:normal;
+  font-size:50px;
+  color:#660033;
+  text-decoration:none;
+  text-align:center;
+  position:absolute;
+  top:880px;
+  left: 510px;
+  width:300px;
+  background-color:white;
+  padding-top:4px;
+  padding-left:10px;
+  padding-bottom:4px;
+  padding-right:10px;
+  box-shadow: 10px 10px 5px #660033;
+}
+
+#caption a:visited{
   font-family: 'Londrina Solid';
   font-style:normal;
   font-size:50px;
@@ -221,11 +240,11 @@ img{
 #link4{
   animation-name: extend;
   animation-duration: 1s;
-  background-color:#99ff99;
+  background-color:#80ff80;
 }
 
 #fiona{
-  background-color:#99ff99;
+  background-color:#80ff80;
   width:100%;
   height:980px;
   position:absolute;
@@ -236,11 +255,11 @@ img{
 #link5{
   animation-name: extend;
   animation-duration: 2s;
-  background-color:#99ffff;
+  background-color:#4dd2ff;
 }
 
 #crystal{
-  background-color:#99ffff;
+  background-color:#4dd2ff;
   width:100%;
   height:980px;
   position:absolute;
@@ -266,11 +285,11 @@ img{
 #link7{
   animation-name: extend;
   animation-duration: 2s;
-  background-color:#ffff66;
+  background-color:#ffd633;
 }
 
 #elle{
-  background-color:#ffff66;
+  background-color:#ffd633;
   width:100%;
   height:980px;
   position:absolute;
@@ -296,11 +315,11 @@ img{
 #link9{
   animation-name: extend;
   animation-duration: 2s;
-  background-color:#80ffbf;
+  background-color:#1affa3;
 }
 
 #zhaohui{
-  background-color:#80ffbf;
+  background-color:#1affa3;
   width:100%;
   height:980px;
   position:absolute;
