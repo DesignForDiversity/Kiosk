@@ -59,33 +59,40 @@ p{
   right:30px;
 }
 
+@keyframes listslide {
+    0%   {left:-800px;}
+    100% {left:1150px;}
+}
+
 ul{
   list-style-type:none;
   margin:0px;
   padding-top:73px;
   position:fixed;
-  right:0px;
+  left:1150px;
+  animation-name: listslide;
+  animation-duration: 2s;
 }
 
 li{
   padding-top:55px;
-  text-align:right;
-  width:1000px;
+  text-align:left;
+  width:1500px;
 }
 
 @keyframes extend {
-    0%   {padding-left:0px;}
-    100% {padding-left:450px;}
+    0%   {padding-left:0px;padding-right:0px;}
+    100% {padding-left:200px;padding-right:600px;}
 }
 
 a:link{
   padding-top:27px;
-  padding-left:450px;
+  padding-left:200px;
   padding-bottom:27px;
-  padding-right:30px;
+  padding-right:600px;
   text-decoration:none;
   font-family: 'Londrina Solid';
-  color:#660033;
+  color:white;
   font-size:35px;
   text-transform: lowercase;
 }
@@ -93,32 +100,28 @@ a:link{
 a:visited{
   text-decoration:none;
   font-family: 'Londrina Solid';
-  color:#660033;
+  color:white;
 }
 
 @keyframes imgright {
-    0%   {margin-left:-500px;}
-    100% {margin-left:170px;}
+    0%   {margin-left:-1300px;}
+    100% {margin-left:120px;}
 }
 
 img{
   margin-top:100px;
-  margin-left:170px;
-  animation-name: imgright;
-  animation-duration: 4s;
+  margin-left:120px;
 }
 
 @keyframes capright {
-  0%   {margin-left:-500px;}
-  100% {margin-left:170px;}
+  0%   {margin-left:-1000px;}
+  100% {margin-left:120px;}
 }
 
 #caption{
-  margin-left:170px;
+  margin-left:120px;
   color:#660033;
   width:100%;
-  animation-name: capright;
-  animation-duration: 3s;
 }
 
 #caption h2{
@@ -135,7 +138,7 @@ img{
 
 @keyframes linkright {
     0%   {left:-500px;}
-    100% {left:545px;}
+    100% {left:510px;}
 }
 
 #caption a:link, a:visited{
@@ -147,7 +150,7 @@ img{
   text-align:center;
   position:absolute;
   top:880px;
-  left: 545px;
+  left: 510px;
   width:300px;
   background-color:white;
   padding-top:4px;
@@ -155,13 +158,11 @@ img{
   padding-bottom:4px;
   padding-right:10px;
   box-shadow: 10px 10px 5px #660033;
-  animation-name: linkright;
-  animation-duration: 4s;
 }
 
 #link1{
   animation-name: extend;
-  animation-duration: 4s;
+  animation-duration: 1s;
   background-color:#7070db;
 }
 
@@ -170,27 +171,32 @@ img{
     100% {left:0px;}
 }
 
+#bigbox{
+  width:70%;
+  position:absolute;
+  animation-name: boxright;
+  animation-duration: 2s;
+}
+
 /*right now, only sandra, but also, right now, always sandra! maybe letter spacing increase on the links? ok for them to go past where they need to, just make all the animations faster*/
 
 #sandra{
   background-color:#7070db;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
-  animation-name: boxright;
-  animation-duration: 3s;
 }
 
 #link2{
   animation-name: extend;
-  animation-duration: 3s;
+  animation-duration: 2s;
   background-color:#ff80aa;
 }
 
 #annie{
   background-color:#ff80aa;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -199,13 +205,13 @@ img{
 
 #link3{
   animation-name: extend;
-  animation-duration: 5s;
+  animation-duration: 2s;
   background-color:#ffcc66;
 }
 
 #emily{
   background-color:#ffcc66;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -214,13 +220,13 @@ img{
 
 #link4{
   animation-name: extend;
-  animation-duration: 3s;
+  animation-duration: 1s;
   background-color:#99ff99;
 }
 
 #fiona{
   background-color:#99ff99;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -229,13 +235,13 @@ img{
 
 #link5{
   animation-name: extend;
-  animation-duration: 4s;
+  animation-duration: 2s;
   background-color:#99ffff;
 }
 
 #crystal{
   background-color:#99ffff;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -244,13 +250,13 @@ img{
 
 #link6{
   animation-name: extend;
-  animation-duration: 4s;
+  animation-duration: 1s;
   background-color:#cc99ff;
 }
 
 #cherilyn{
   background-color:#cc99ff;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -259,13 +265,13 @@ img{
 
 #link7{
   animation-name: extend;
-  animation-duration: 5s;
+  animation-duration: 2s;
   background-color:#ffff66;
 }
 
 #elle{
   background-color:#ffff66;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -274,13 +280,13 @@ img{
 
 #link8{
   animation-name: extend;
-  animation-duration: 3s;
+  animation-duration: 1s;
   background-color:#ff9999;
 }
 
 #anthony{
   background-color:#ff9999;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -295,7 +301,7 @@ img{
 
 #zhaohui{
   background-color:#80ffbf;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -304,13 +310,13 @@ img{
 
 #link10{
   animation-name: extend;
-  animation-duration: 4s;
+  animation-duration: 1s;
   background-color:#a64dff;
 }
 
 #daria{
   background-color:#a64dff;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
@@ -319,13 +325,13 @@ img{
 
 #link11{
   animation-name: extend;
-  animation-duration: 3s;
+  animation-duration: 2s;
   background-color:#ff99ff;
 }
 
 #violet{
   background-color:#ff99ff;
-  width:75%;
+  width:100%;
   height:980px;
   position:absolute;
   top:100px;
