@@ -5,17 +5,13 @@
 - A z-position
 - A touchscreen capability */
 
-body {
-    background-color: grey;
-}
-
 #return-to-main div {
     z-index: 100;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     height: 110px;
     width: 110px;
-    background-color: #ff80aa;
+    background-color: #FD81AA;
     position: fixed;
     left: 0px;
     top: 490px;
