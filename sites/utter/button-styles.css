@@ -1,0 +1,28 @@
+/* A back button for each student project site which includes:
+- A recognizable colorscheme
+- A white arrow
+- A dropshadow
+- A z-position
+- A touchscreen capability */
+
+#return-to-main div {
+    z-index: 100;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 110px;
+    width: 120px;
+    background-color: #54D3FD;
+    position: fixed;
+    left: 0px;
+    top: 490px;
+    filter: drop-shadow(8px 4px 10px #333);
+}
+
+#return-to-main svg {
+    height: 70px;
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+    filter: drop-shadow(8px 4px 10px #333);
+}
