@@ -1,0 +1,110 @@
+<!doctype html>
+<html id="fingerspell_page">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Fingerspell-It</title>
+  <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet">
+  <!-- Fonts link below -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:700%7CRaleway:400,800" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script> -->
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js'></script> -->
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- SIDE MENU ICON -->
+  <div id="menu">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+  <!-- SIDE MENU -->
+  <div id="mySidenav" class="sidenav">
+    <a href="index.html">Home</a>
+    <!-- <a href="index.html">Why ASL?</a> -->
+    <a href="contact.html">About</a>
+    <a href="learn_alphabet.html">Learn the Alphabet</a>
+    <a href="keyboard_game.html">Name That Letter!</a>
+    <a href="fingerspell.html">Fingerspell-It</a>
+  </div>
+
+  <!-- MAIN PAGE CONTENT -->
+  <div id="logo">
+    <!-- <img src="images/utter_logo.svg" width="18" alt="utter logo showing illustration of the sign for the letter u"/> -->
+    <h1 id="utter"><a href="index.html">utter</a></h1>
+  </div>
+
+  <article id="fingerspell_it">
+    <h1>Fingerspell-It</h1>
+    <!-- <a href="index.html" id="home">Home</a> -->
+
+    <p>
+      Guess what word is being fingerspelled.
+    </p>
+    <p id="start_statement">
+      Click start to begin!
+    </p>
+    <button id="start">Start</button>
+    <!-- <br /> -->
+    <section class="fingerspell_game_area">
+      <div id="support_content">
+
+
+        <button id="reveal_answer_button">Reveal Answer</button>
+        <button id="next_word_button">Next word</button>
+        <!-- <br /> -->
+
+        <div id="reveal_answer_div" style="display: none;"></div>
+      </div>
+      <div id="spelling_area">
+        <!-- set source to a transparent pixel -->
+        <img id="letterimg" src="images/a.svg" alt="current letter" />
+        <img id="replay" src="images/replay.svg" alt="click to replay" />
+      </div>
+    </section>
+
+  </article>
+
+  <article id="middle_article">
+    <!-- <div id="center_all"> -->
+      <form name="f" id="the_form">
+      <label for="answer_input">answer:</label>
+      <input type="text" name="answer_input" id="answer_input" />
+      <!-- <button id="check_answer_button">Check</button> -->
+      <input type="submit" name="check_answer_button" value="Check" id="check_answer_button">
+    </form>
+  <!-- </div> -->
+
+  </article>
+
+  <article id="bottom_nav">
+    <div>
+      <section id="positioner">
+        <a id="invisible_anchor" href="keyboard_game.html"></a>
+        <h2>Need to review?</h2>
+        <p>Previous game</p>
+        <a id="left_button_footer"><i class="fas fa-arrow-circle-left"></i></a>
+      </section>
+
+      <section id="invisible">
+      </section>
+    </div>
+  </article>
+
+  <footer>
+    <nav id="valid">
+      <ul>
+        <li><a href="https://validator.w3.org/check?uri=referer"><i class="fab fa-html5" aria-hidden="true"></i></a></li>
+        <li><a href="https://jigsaw.w3.org/css-validator/check/referer"><i class="fab fa-css3" aria-hidden="true"></i></a></li>
+        <!-- <li><a href="https://p5js.org"><i class="fas fa-book" aria-hidden="true"></i></a></li> -->
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="fingerspell.js"></script>
+
+</body>
+
+</html>
