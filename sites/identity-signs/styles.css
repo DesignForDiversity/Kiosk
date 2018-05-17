@@ -1,0 +1,987 @@
+/*************BOX MODEL*****************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.col {
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+/*************TYPOGRAPHY**************/
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.3em;
+  color: #04248E;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  font-size: 1.5em;
+  color: #FF8686;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
+
+.workshops h2 {
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Work Sans', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 1.6em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #939598;
+  width: 100%;
+  margin: auto;
+}
+
+p {
+  font-family: 'Work Sans', serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.3em;
+  color: #939598;
+}
+
+ol {
+  margin: auto;
+  font-weight: 400;
+  padding: 0 0 5% 1%;
+}
+
+li {
+  font-family: 'Work Sans', serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.7em;
+  color: #939598;
+  list-style-position: outside;
+}
+
+a {
+  font-family: 'Space Mono', monospace;
+  text-decoration: none;
+  text-transform: lowercase;
+  color: #FF8686;
+}
+
+#workshopmenu h2 {
+  text-transform: uppercase;
+}
+
+#workshopmenu p {
+  color: #fff;
+  text-align: center;
+}
+
+span {
+  color: #04248E;
+}
+
+textarea {
+  font-family: 'Work Sans', serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #939598;
+}
+
+hr {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border: 0.5px solid #04248E;
+}
+
+footer a {
+  padding-right: 3%;
+}
+
+
+/********NAVIGATION****************/
+
+#dropdown {
+  display: none;
+  width: 40%;
+  background-color: #e6e7e8;
+  position: absolute;
+}
+
+#dropdown a {
+  display: block;
+  padding: 7% 5%;
+  border: 1px solid #fff;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: lowercase;
+}
+
+#menu {
+  background-color: transparent;
+  border: none;
+  color: #FF8686;
+  font-size: 2em;
+  margin-top: 2%;
+  padding: 0;
+}
+
+#largescreenmenu {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  top: 95%;
+}
+
+#identitysigns footer {
+  display: none;
+}
+
+
+/***********BUTTONS******************/
+
+.button {
+  background-color: #FF8686;
+  padding: 5% 10%;
+  border-radius: .5em;
+  margin: auto;
+  margin-bottom: 10%;
+  width: 60%;
+  text-align: center;
+}
+
+a .button {
+  color: #fff;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="button"] {
+  background-color: #FF8686;
+  padding: 2% 2.5%;
+  color: #fff;
+  display: inline;
+  border-radius: .5em;
+  border: 1px solid transparent;
+  clear: both;
+  font-family: 'Space Mono', monospace;
+}
+
+input[type="submit"] {
+  background-color: #FF8686;
+  padding: 2% 5%;
+  color: #fff;
+  display: inline;
+  border-radius: .5em;
+  font-family: 'Space Mono', monospace;
+}
+
+label {
+  padding: 5% 1%;
+  margin: auto;
+  margin-top: 2%;
+  display: block;
+  width: 80%;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  border-radius: .5em;
+  border: 2px #aba5d2 solid;
+  color: #aba5d2;
+  font-size: 1.2em;
+}
+
+input[type="radio"]:checked+label {
+  background-color: #04248E;
+  border: 2px #04248E solid;
+  color: #fff;
+}
+
+.actionbuttons {
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+
+
+/******ask me later buttons*******/
+
+#next1, #next2, #next3, #next4, #submit1 {
+  display: block;
+}
+
+
+/*******answer now buttons***********/
+
+input[type=button]:disabled {
+  background-color: gray;
+}
+
+
+/*********************************HOME PAGE***********************************************/
+
+#homepage, #description {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/***********WORKSHOP MENU***********/
+
+#workshopmenu {
+  margin: 5% 0%;
+  overflow: auto;
+  margin-bottom: 10%;
+}
+
+.workshops {
+  padding: 10% 0%;
+  height: 50%;
+  margin: auto;
+  margin-bottom: 2%;
+  background-color: #04248E;
+}
+
+#workshop3 {
+  clear: both;
+}
+
+
+/*********************************IDENTITY SIGNS WORKSHOP************************************/
+
+#identitysigns, #description {
+  background-color: #fff;
+}
+
+
+/*************IDENTITY SIGNS: DESCRIPTION page********/
+#description {
+  min-height: 100vh;
+}
+
+#description article {
+  height: 100%;
+}
+
+#description h1 {
+  font-size: 3em;
+  margin-top: 4%;
+}
+
+#identitydescription .button {
+  margin-top: 5%;
+}
+
+#paragraphdescription {
+  padding: 3%;
+  margin: 2%;
+  margin-top: 1%;
+  background-color: #fff;
+  border: #aba5d2 solid 1px;
+  box-shadow: #aba5d2 5px 5px;
+}
+
+#description img {
+  margin-top: 1%;
+}
+
+/***********IDENTITY SIGNS: ABOUT***************/
+#about h2 {
+  text-align: left;
+}
+
+#aboutpage {
+  padding-bottom: 8%;
+}
+
+/*********IDENTITY SIGNS: questions***************/
+
+#question1, #question2, #question3, #question4, #question5 {
+  width: 100%;
+  height: 100vh;
+}
+
+#r1 {
+  width: 100%;
+  height: 100vh;
+}
+
+#r2 {
+  width: 100%;
+  height: 100vh;
+}
+
+#r3 {
+  width: 100%;
+  height: 100vh;
+}
+
+#r4 {
+  width: 100%;
+  height: 100vh;
+}
+
+#r5 {
+  width: 100%;
+  height: 100vh;
+}
+
+#questions h3, #reflection h3, #gallery h3 {
+  padding-top: 8%;
+}
+
+
+/*********IDENTITY SIGNS: Reflection***************/
+
+textarea {
+  border: .5px solid #939598;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 5%;
+}
+
+
+/*********IDENTITY SIGNS: Gallery***************/
+
+.galleries {
+  height: 100vh;
+}
+
+#gallery p {
+  color: #939598;
+  overflow: hidden;
+  padding: 5% 3%;
+}
+
+.responses {
+  overflow: auto;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.galleries {
+  position: relative;
+}
+
+.pink {
+  position: absolute;
+  width: 80%;
+}
+
+.msg {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 50%;
+}
+
+.leftpurple {
+  position: absolute;
+  top: 50%;
+  width: 80%;
+}
+
+.otheruser1 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 80%;
+  height: 40%;
+}
+
+.rightpurple {
+  position: absolute;
+  top: 100%;
+  width: 80%;
+}
+
+.otheruser2 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 80%;
+  height: 40%;
+}
+
+.rightpurple2 {
+  position: absolute;
+  top: 150%;
+  width: 80%;
+}
+
+.otheruser3 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 80%;
+  height: 40%;
+}
+
+.rightblue {
+  position: absolute;
+  top: 200%;
+  width: 80%;
+}
+
+.otheruser4 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 80%;
+  height: 40%;
+}
+
+.rightblue2 {
+  position: absolute;
+  top: 250%;
+  width: 80%;
+}
+
+.otheruser5 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 80%;
+  height: 40%;
+}
+
+.leftblue {
+  position: absolute;
+  top: 300%;
+  width: 80%;
+}
+
+.otheruser6 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 80%;
+  height: 40%;
+}
+
+
+/*********ANIMATION**********/
+
+.pink, .rightpurple, .rightpurple2, .rightblue, .rightblue2, .leftpurple, .leftblue {
+  opacity: 0;
+}
+
+.animatemsg {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.animateset1 {
+  animation-name: fade;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.animateset2 {
+  animation-name: fade;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: .25;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animateflash {
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+}
+
+@keyframes flash {
+  0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+
+/**********OVERLAYS**********/
+
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding: 5% 8%;
+  position: absolute;
+  left: 0%;
+  background-color: #fff;
+  border: 1px solid #FF8686;
+  z-index: 1;
+  overflow: scroll;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 2em;
+  color: #FF8686;
+  text-align: right;
+}
+
+
+/**************IDENTITY SIGNS: REVIEWS*************/
+
+#review {
+  margin-bottom: 5%;
+  height: 100vh;
+}
+
+
+/******************************************RESPONSIVE*************************************************/
+
+
+/********FOR SCREENS 768 PX AND LARGER********/
+
+@media only screen and (min-width: 768px) {
+  body {
+    border: 6px solid #aba5d2;
+    min-height: 100vh;
+  }
+  /***no scroll***/
+  #identitysigns {
+    overflow-y: hidden;
+  }
+  /******BOX SIZING********/
+  .container {
+    width: 60%;
+  }
+  .col-12 {
+    width: 48%;
+  }
+  /*****NAVIGATION**********/
+  #menu {
+    display: none;
+  }
+  #largescreenmenu {
+    display: block;
+    padding-top: 3%;
+  }
+}
+
+#largescreenmenu a {
+  padding: 1%;
+  font-size: 1.1em;
+}
+
+a:hover {
+  color: #939598;
+}
+
+#identitysigns footer {
+  display: block;
+}
+
+
+/*******WORKSHOP MENU********/
+
+.workshops {
+  margin: 1% 1% .25% 0;
+}
+
+.workshops:hover {
+  background-color: #aba5d2;
+}
+
+
+/******BUTTONS***********/
+
+.button {
+  padding: 2% 3%;
+  width: 25%;
+  margin-bottom: 5%;
+}
+
+.button:hover {
+  background-color: #939598;
+}
+
+label {
+  width: 30.3%;
+  float: left;
+  margin: 1.5%;
+  padding: 3.5% 2%;
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: #04248E;
+  color: #fff;
+}
+
+input[type="button"] {
+  cursor: pointer;
+  padding: 2% 5%;
+}
+
+input[type="button"]:hover {
+  background-color: #939598;
+}
+
+input[type="button"]:disabled {
+  cursor: default;
+  background-color: gray;
+}
+
+#jumpback2, #jumpback3, #jumpback4, #jumpback5, #toreview {
+  display: inline;
+}
+
+
+/***************************IDENTITY SIGNS********************************/
+
+
+/***fixed header***/
+
+#identitysigns header {
+  position: fixed;
+  width: 60%;
+  height: 100px;
+  top: 0;
+  margin-top: 1%;
+  z-index: 2;
+}
+
+#identitysigns #largescreenmenu {
+  position: absolute;
+  top: 15%;
+  width: 60%;
+  padding: 0%;
+}
+
+#identitysigns h1 {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+#identitysigns hr {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}
+
+/**************************PROGRESS BAR***************************/
+.progresscontainer {
+  width: 100%;
+  margin: 3% auto;
+}
+
+.progressbar {
+  counter-reset: step;
+  width: 100%;
+}
+
+.progressbar li {
+  list-style-type: none;
+  width: 16.666%;
+  float: left;
+  font-size: 0.8em;
+  text-align: center;
+  position: relative;
+}
+
+.progressbar li:before {
+  width: .8em;
+  height: .8em;
+  content: counter(step);
+  counter-increment: step;
+  line-height: .8em;
+  border: 2px solid #aba5d2;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: white;
+  color: #ffffff;
+}
+
+.progressbar li:after {
+  width: 200%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: #aba5d2;
+  top: 6px;
+  left: -150%;
+  z-index: -1;
+}
+
+.progressbar li:nth-child(-n+2):after {
+  content: none;
+}
+
+
+.progressbar li.active {
+  color: #ff8686;
+}
+
+.progressbar li.active:before {
+  border-color: #ff8686;
+}
+
+.progressbar li.active + li:after {
+  background-color: #ff8686;
+}
+
+
+/******QUESTIONS**********/
+
+.choices {
+  padding-bottom: 30%;
+  padding-top: 1%;
+}
+
+.questions {
+  padding-top: 115px;
+}
+
+
+/***REFLECTION****/
+
+#r1, #r2, #r3, #r4, #r5 {
+  padding-top: 115px;
+}
+
+
+/*****GALLERY SECTION******/
+
+.galleries {
+  padding-top: 110px;
+}
+
+#gallery p {
+  margin: 0;
+}
+
+#gallery div p:hover {
+  cursor: pointer;
+  color: #FF8686;
+}
+
+
+#gallery .overlay p:hover {
+  color: #939598;
+  cursor: auto;
+}
+
+.responses {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin-bottom: 1%;
+}
+
+.galleries {
+  position: relative;
+}
+
+/****review***/
+#review {
+  padding-top: 115px;
+}
+
+#review section {
+  height: 100%;
+  overflow: scroll;
+}
+
+#review p {
+  line-height: 1.2em;
+}
+
+.reviewquestion:first-child {
+  padding-top: 8%;
+}
+
+#returntohome{
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+#thankyou {
+  color: #04248E;
+  font-size: 1.5em;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+}
+
+.actionbuttons:last-child {
+  margin-bottom: 5%;
+}
+
+.reviewquestion {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #FF8686;
+}
+
+.actionbuttons .button {
+  margin-top: 3%;
+}
+
+
+/**********SPEECH BUBBLES AND MSGS POSITIONING*****************/
+
+.pink {
+  position: absolute;
+  left: 35%;
+  top: 38%;
+  max-width: 30%;
+  height: 50%;
+}
+
+.msg {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 55%;
+}
+.leftpurple {
+  position: absolute;
+  left: 0%;
+  top: 18%;
+  width: 25%;
+  height: 30%;
+}
+.otheruser1 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 85%;
+}
+.rightpurple {
+  position: absolute;
+  left: 50%;
+  top: -1%;
+  width: 25%;
+  height: 30%;
+}
+.otheruser2 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 85%;
+}
+.rightpurple2 {
+  position: absolute;
+  left: 70%;
+  top: 55%;
+  width: 25%;
+  height: 30%;
+}
+.otheruser3 {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  width: 80%;
+  height: 85%;
+}
+.rightblue {
+  position: absolute;
+  left: 25%;
+  width: 25%;
+  height: 30%;
+  top: -1%;
+}
+.otheruser4 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 85%;
+}
+.rightblue2 {
+  position: absolute;
+  right: 0%;
+  top: 18%;
+  width: 25%;
+  height: 30%;
+}
+.otheruser5 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 85%;
+}
+.leftblue {
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  width: 25%;
+  height: 30%;
+}
+.otheruser6 {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  width: 80%;
+  height: 85%;
+}
+.overlay {
+  width: 100%;
+  height: 80%;
+}

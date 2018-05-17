@@ -1,0 +1,643 @@
+/*TABLE OF CONTENTS*/
+
+      /* GENERAL STYLES */
+      /* SIDE NAV MENU */
+      /* FOOTER (VALIDATION LINKS) */
+      /* HOMEPAGE */
+      /* GENERAL GAME PAGE STYLES */
+      /* NAVIGATION ARTICLE (THIRD/BOTTOM) */
+      /*** 1. LEARN ALPHABET ***/
+      /*** 2. NAME THAT LETTER ***/
+      /*** 3. FINGERSPELL IT ***/
+      /* KEYFRAMES */
+      /*** NOT SURE IF I NEED THESE OR WHERE THEY COME IN ***/
+      /* GENERAL STYLES */
+
+      /*colors:
+      #fdd031
+      #BFF7F3
+      #3030F9
+      black
+      white
+      */
+
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  /* background-color: #bff7f3; */
+  color: #3030F9;
+}
+
+em{
+  font-weight: bold;
+}
+
+div#logo {
+  /* same as article */
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h1#utter {
+  animation-name: header_slide;
+  animation-duration: 2s;
+  font-size: 50px;
+  margin-top: 25px;
+  font-weight: normal;
+}
+
+#utter a{
+  border: none;
+  padding: 0;
+}
+
+p{
+  font-size: 35px;
+  line-height: 50px;
+}
+
+
+
+
+
+
+
+
+/* SIDE NAV MENU */
+
+#menu {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  cursor: pointer;
+  color: #3030F9;
+}
+
+.sidenav {
+  /* background: black; */
+  height: 70%;
+  /* width: 275px; */
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  /* z-index: 1; */
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 100px;
+}
+
+.sidenav a {
+  padding: 10px 0 10px 0px;
+  text-decoration: none;
+  font-size: 28px;
+  color: #3030F9;
+  /* background: black; */
+  display: block;
+  transition: 0.3s;
+  border: none;
+}
+
+/* .sidenav ul {
+  width: 250px;
+  list-style: none;
+  padding-left: 0px;
+
+} */
+
+.sidenav a:hover {
+  color: #fdd031;
+}
+
+/* different for each page, highlights which page you are on */
+
+#current_page {
+  border: 1px solid;
+  border-radius: 0px;
+  padding: 3px 3px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+/* FOOTER (VALIDATION LINKS) */
+
+footer {
+  /* background: red; */
+  position: fixed;
+  bottom: 0px;
+  /* left: 0px; */
+  width: 100%;
+}
+
+#valid{
+  display: none;
+}
+
+#valid ul {
+  position: fixed;
+  right: 10px;
+  bottom: 0px;
+}
+
+#valid ul li {
+  float: right;
+  padding: 5px;
+}
+
+#valid ul li a {
+  border: none;
+  padding: 10px 5px;
+  font-size: 20px;
+  color: #3030F9;
+}
+
+#valid ul li a:hover {
+  color: #bff7f3;
+  transition: 1s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+/* BUTTONS AND LINKS */
+
+a, #check_answer_button, #answer_input {
+  padding: 10px 20px;
+  border: 1px solid #3030F9;
+  border-radius: 22px;
+  color: #3030F9;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  /* background: #bff7f3; */
+  border-radius: 22px;
+  color: #3030F9;
+  border: 1px solid #3030F9;
+  padding: 10px 20px;
+}
+
+button:hover {
+  color: #fdd031;
+  border: 1px solid #fdd031;
+  transition: 1s;
+}
+
+button:focus, #answer_input:focus, #check_answer_button:focus {
+  outline: 0;
+}
+
+.homepage_link{
+  /* padding: 10px 40px; */
+  /* padding-top: 20px; */
+  width: 19%;
+  display: inline-table;
+  height: 50px;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 25px;
+  box-shadow: -5px 10px 24px #888888;
+  font-weight: bold;
+}
+
+#coming_soon_button:hover{
+  background: white;
+  color: grey;
+  border: 1px solid grey;
+}
+
+.homepage_link:hover, #check_answer_button:hover {
+  box-shadow: -3px 5px 12px #888888;
+  transition: .5s;
+  background: #fdd031;
+  /* color: #bff7f3; */
+  border: 1px solid #3030F9;
+}
+
+#start{
+  background: #3030F9;
+  color: white;
+}
+
+
+
+
+
+
+/* HOMEPAGE */
+
+#hand1 {
+  position: fixed;
+  bottom: -60px;
+  left: -50px;
+  z-index: -1;
+}
+
+#hand2 {
+  position: fixed;
+  top: -60px;
+  right: -50px;
+  z-index: -1;
+}
+
+#welcome{
+  width: 60%;
+  margin: auto;
+}
+
+#welcome p {
+  width: 70%;
+  /* padding-left: 40px; */
+}
+
+h2{
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 110px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+
+
+
+
+
+/* GENERAL GAME PAGE STYLES */
+
+h1{
+  font-size: 45px;
+}
+
+#game_p{
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+#middle_article {
+  /* background: #fdd031; */
+  /* background: white; */
+  background: #BFF7F3;
+  height: 280px;
+}
+
+article {
+  /* background: orange; */
+  /* background: #fdd031; */
+  /* background: #BFF7F3; */
+  background: white;
+  border-radius: 25px;
+  width: 58%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 10px 0; */
+  box-shadow: -5px 10px 24px #888888;
+  padding: 5px 1%;
+}
+
+#showsigns{
+  /* background: black; */
+  width: 200px;
+  display: inline-block;
+}
+
+#center_all {
+  /* background: black; */
+  /* width: 400px; */
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+
+
+/* NAVIGATION ARTICLE (THIRD/BOTTOM) */
+
+#bottom_nav{
+  margin-top: 20px;
+  /* background: #bff7f3; */
+  background: white;
+  box-shadow: none;
+}
+
+#bottom_nav section {
+  background: white;
+  padding: 10px;
+  display: inline-block;
+  width: 30%;
+  border-radius: 25px;
+  border: 1px solid #3030F9;
+  box-shadow: -5px 10px 24px #888888;
+}
+
+#bottom_nav section:hover{
+  box-shadow: -3px 5px 12px #888888;
+    transition: .25s;
+    cursor: pointer;
+}
+
+#bottom_nav section:last-child {
+  margin-left: 33%;
+  /* ^^ is there a better way to do this? I want the sections to take up the full width of the div but still have a gap */
+}
+
+#bottom_nav div {
+  /* background: red; */
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+}
+
+#bottom_nav p, #bottom_nav a {
+  float: left;
+}
+
+#bottom_nav a {
+  border: none;
+  font-size: 45px;
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+
+#bottom_nav section:first-child a {
+  float: right;
+  /* padding-right: 10px; */
+}
+
+#bottom_nav section:first-child h2 {
+  text-align: right;
+  /* padding-right: 10px; */
+}
+
+#bottom_nav section:last-child p {
+  float: right;
+}
+
+#bottom_nav a:hover {
+  color: white;
+  transition: 1s;
+}
+
+#bottom_nav h2 {
+  font-size: 26px;
+  margin: 0;
+  line-height: 26px;
+}
+
+#bottom_nav p {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+
+section#invisible{
+  opacity: 0;
+}
+
+#positioner{
+  position: relative;
+}
+
+#invisible_anchor{
+  /* border: 1px solid black; */
+  /* background: black; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 270px;
+  height: 104px;
+  /* z-index: 0; */
+}
+
+
+
+
+
+/*** 1. LEARN ALPHABET ***/
+
+.game_area{
+  background: white;
+  /* border: 1px solid #bff7f3; */
+  width: 40%;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.game_area div {
+  vertical-align: middle;
+}
+
+.game_area div#support_content {
+  margin-left: 25px;
+}
+
+.game_area div#showsigns{
+  float: right;
+  /* margin-right: 25px; */
+}
+
+#current_letter {
+  font-size: 180px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+  line-height: 180px;
+  color: #fdd031;
+}
+
+#mySketch {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#support_content{
+  /* background: black; */
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+#next_prev_buttons {
+  /* background: black; */
+  width: 110px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+#next_prev_buttons button{
+
+}
+
+#name_that_letter{
+  height: 430px;
+}
+
+
+
+/*** 2. NAME THAT LETTER ***/
+
+#score{
+  /* background: black; */
+  width: 200px;
+}
+
+#help{
+  /* background: black; */
+  width: 200px;
+  cursor: pointer;
+}
+
+#start{
+  cursor: pointer;
+}
+
+#you_typed{
+  /* text-transform: uppercase; */
+}
+
+
+
+
+
+/*** 3. FINGERSPELL IT ***/
+
+#fingerspell_it{
+  height: 450px;
+}
+
+.fingerspell_game_area{
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.fingerspell_game_area div{
+  float: left;
+}
+
+#spelling_area{
+  width: 70%;
+  /* background: green; */
+}
+
+/* #spelling_area img {
+  display: inline-block;
+} */
+
+#letterimg {
+  height: 230px;
+  /* margin: auto; */
+}
+
+#replay {
+  height: 250px;
+  /* position: absolute;
+  top: 300px; */
+  cursor: pointer;
+}
+
+img#letterimg, img#replay {
+  /* display: inline-block; */
+  float: left;
+}
+
+#the_form {
+  /* margin-top: 50px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: 24px;
+  padding-top: 100px;
+  margin-left: 27%;
+}
+
+#reveal_answer_button{
+  margin-bottom: 15px;
+}
+
+
+
+
+/* ABOUT PAGE */
+
+p.about {
+  font-size: 25px;
+}
+
+#email{
+  padding: 0;
+  border: none;
+  color: #3030F9;
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+
+
+
+
+
+
+
+
+
+/* KEYFRAMES */
+
+/* on all pages*/
+@keyframes header_slide {
+  from {
+    padding-left: 80px;
+  }
+  to {
+    padding-left: 0px;
+  }
+}
+
+
+
+
+
+
+/*** NOT SURE IF I NEED THESE OR WHERE THEY COME IN ***/
+
+/* h3 {
+  padding: 40px 0 5px 0;
+  font-size: 15px;
+} */
+
+/* @keyframes bottom_nav_label {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
