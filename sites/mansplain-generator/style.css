@@ -3,248 +3,245 @@
 
 /* start all css with a reset */
 
-
 /* GENERAL LAYOUT */
 
 * {
-  margin: 0px;
-  padding: 0px
+    margin: 0px;
+    padding: 0px
 }
 
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  background-color: white;
-  overflow: hidden;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: white;
+    overflow: hidden;
 }
 
 a {
-  color: #3b56a6;
+    color: #3b56a6;
 }
 
 #man {
-  float: left;
-  margin-left: 20px;
-  margin-top: 62px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 62px;
 }
 
 .container {
-  float: left;
-  margin-top: 60px;
-  margin-left: 170px;
-  width: 800px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 170px;
+    width: 800px;
 }
 
 footer {
-  margin-top: 30px;
-  margin-left: 420px;
+    margin-top: 30px;
+    margin-left: 420px;
 }
-
 
 /* TYPE */
 
 h1 {
-  color: #3b56a6;
-  font-size: 70px;
+    color: #3b56a6;
+    font-size: 60px;
 }
 
 h2 {
-  color: #73cee6;
-  font-size: 53px;
-  padding-bottom: 10px;
-  margin-left: -82px;
+    color: #73cee6;
+    font-size: 42px;
+    padding-bottom: 10px;
+    margin-left: -82px;
 }
 
 h3 {
-  color: #654a69;
-  font-size: 24px;
-  line-height: 40px;
-  margin-top: 20px;
+    color: #654a69;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 20px;
 }
 
 /* FORMATTING THE FORM */
 
 article {
-  font-size: 22px;
-  line-height: 42px;
+    font-size: 22px;
+    line-height: 42px;
 }
 
 .field {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 input[type=text] {
-  padding: 5px;
-  box-sizing: border-box;
-  border-radius: 5px;
-  height: 40px;
-  width: 86%;
-  border: 3px solid #8bdaef;
-  border-radius: 4px;
-  outline: none;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 40px;
+    width: 86%;
+    border: 3px solid #8bdaef;
+    border-radius: 4px;
+    outline: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
 }
 
 input[type=text]:focus {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  border: 3px solid #3b56a6;
-  font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 3px solid #3b56a6;
+    font-size: 20px;
 }
 
 input[type=submit] {
-  float: left;
-  margin-top: 28px;
-  margin-left: 10px;
-  border-radius: 5px;
-  border-bottom: 4px solid #3b56a6;
-  border-right: 4px solid #3b56a6;
-  border-top: 0px solid transparent;
-  border-left: 0px solid transparent;
-  width: 42.5%;
-  height: 60px;
-  background: #a3c1f8;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 24px;
-  color: #3b56a6;
-  cursor: pointer;
+    float: left;
+    margin-top: 28px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-bottom: 4px solid #3b56a6;
+    border-right: 4px solid #3b56a6;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    width: 42.5%;
+    height: 60px;
+    background: #a3c1f8;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+    color: #3b56a6;
+    cursor: pointer;
 }
 
 input[type=submit]:active {
-  background: white;
-  border-bottom: 0px solid transparent;
-  border-right: 0px solid transparent;
-  border-top: 4px solid #3b56a6;
-  border-left: 4px solid #3b56a6;
+    background: white;
+    border-bottom: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 4px solid #3b56a6;
+    border-left: 4px solid #3b56a6;
 }
 
 input[type=reset] {
-  float: left;
-  margin-top: 28px;
-  border-radius: 5px;
-  border-bottom: 4px solid #5daec3;
-  border-right: 4px solid #5daec3;
-  border-top: 0px solid transparent;
-  border-left: 0px solid transparent;
-  width: 42.5%;
-  height: 60px;
-  background: #e3f7fc;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 24px;
-  color: #5daec3;
-  cursor: pointer;
+    float: left;
+    margin-top: 28px;
+    border-radius: 5px;
+    border-bottom: 4px solid #5daec3;
+    border-right: 4px solid #5daec3;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    width: 42.5%;
+    height: 60px;
+    background: #e3f7fc;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+    color: #5daec3;
+    cursor: pointer;
 }
 
 input[type=reset]:active {
-  background: white;
-  border-bottom: 0px solid transparent;
-  border-right: 0px solid transparent;
-  border-top: 4px solid #5daec3;
-  border-left: 4px solid #5daec3;
+    background: white;
+    border-bottom: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 4px solid #5daec3;
+    border-left: 4px solid #5daec3;
 }
 
-input[type=radio]{
-  margin-left: 20px;
-  height: 16px;
-  margin-right: 2px;
+input[type=radio] {
+    margin-left: 20px;
+    height: 16px;
+    margin-right: 2px;
 }
 
 /* BORDER AROUND WHOLE SITE */
 
 #top, #bottom, #left, #right {
-  background: #73cee6;
-  position: fixed;
+    background: #73cee6;
+    position: fixed;
 }
 
 #left, #right {
-  top: 0;
-  bottom: 0;
-  width: 20px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
 }
 
 #left {
-  left: 0;
+    left: 0;
 }
 
 #right {
-  right: 0;
+    right: 0;
 }
 
 #top, #bottom {
-  left: 0;
-  right: 0;
-  height: 20px;
+    left: 0;
+    right: 0;
+    height: 20px;
 }
 
 #top {
-  top: 0;
+    top: 0;
 }
 
 #bottom {
-  bottom: 0;
+    bottom: 0;
 }
-
 
 /* OVERLAY */
 
 #overlay {
-  position: fixed;
-  top: 0px;
-  left: 830px;
-  bottom: 20px;
-  right: 20px;
-  margin-top: 50px;
-  background-image: url("images/bubble.png");
-  background-repeat: no-repeat;
-  background-color: rgba(255, 255, 255, 1);
-  display: none;
+    position: fixed;
+    top: 0px;
+    left: 830px;
+    bottom: 20px;
+    right: 20px;
+    margin-top: 50px;
+    background-image: url("images/bubble.png");
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 1);
+    display: none;
 }
 
 #message {
-  position: relative;
-  top: 110px;
-  left: 150px;
-  width: 650px;
-  font-size: 26.5px;
-  line-height: 50px;
-  color: #243a72;
-  padding: 30px;
+    position: relative;
+    top: 110px;
+    left: 150px;
+    width: 650px;
+    font-size: 26.5px;
+    line-height: 50px;
+    color: #243a72;
+    padding: 30px;
 }
 
 #fader {
-  opacity: 0;
-  -webkit-transition: opacity 2s;
-  -moz-transition: opacity 2s;
-  -o-transition: opacity 2s;
-  transition: opacity 2s;
+    opacity: 0;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
 }
 
 .tryagain {
-  position: absolute;
-  top: 820px;
-  left: 350px;
-  padding: 12px;
-  padding-left: 60px;
-  width: 200px;
-  border-radius: 5px;
-  border-bottom: 4px solid #3b56a6;
-  border-right: 4px solid #3b56a6;
-  border-top: 0px solid transparent;
-  border-left: 0px solid transparent;
-  background: #a3c1f8;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 24px;
-  color: #3b56a6;
-  cursor: pointer;
+    position: absolute;
+    top: 820px;
+    left: 350px;
+    padding: 12px;
+    padding-left: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border-bottom: 4px solid #3b56a6;
+    border-right: 4px solid #3b56a6;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    background: #a3c1f8;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+    color: #3b56a6;
+    cursor: pointer;
 }
 
-.leftsparkle{
-  position: absolute;
-  left: 60px;
-  top: 340px;
+.leftsparkle {
+    position: absolute;
+    left: 60px;
+    top: 340px;
 }
 
-.rightsparkle{
-  position: absolute;
-  right: 140px;
-  top: 340px;
+.rightsparkle {
+    position: absolute;
+    right: 140px;
+    top: 340px;
 }
