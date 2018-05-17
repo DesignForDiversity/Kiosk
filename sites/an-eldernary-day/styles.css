@@ -721,7 +721,7 @@ input[type=text]:focus {
   color: #b5dcff;
 }
 
-#aboutIntro a:hover, #aboutSolution a:hover {
+#aboutIntro a:hover{
   text-decoration: underline;
   color: white;
   transition-duration: 1s;
