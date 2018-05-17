@@ -31,9 +31,6 @@ var zhaohuioverlay = document.getElementById('zhaohui');
 var darialink = document.getElementById('link10');
 var dariaoverlay = document.getElementById('daria');
 
-var violetlink = document.getElementById('link11');
-var violetoverlay = document.getElementById('violet');
-
 sandralink.addEventListener('click', function(){
   sandraoverlay.style.display="block";
   annieoverlay.style.display="none";
@@ -45,7 +42,6 @@ sandralink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 annielink.addEventListener('click', function(){
@@ -59,7 +55,6 @@ annielink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 emilylink.addEventListener('click', function(){
@@ -73,7 +68,6 @@ emilylink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 fionalink.addEventListener('click', function(){
@@ -87,7 +81,6 @@ fionalink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 crystallink.addEventListener('click', function(){
@@ -101,7 +94,6 @@ crystallink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 cherilynlink.addEventListener('click', function(){
@@ -115,7 +107,6 @@ cherilynlink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 ellelink.addEventListener('click', function(){
@@ -129,7 +120,6 @@ ellelink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 anthonylink.addEventListener('click', function(){
@@ -143,7 +133,6 @@ anthonylink.addEventListener('click', function(){
   anthonyoverlay.style.display="block";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 zhaohuilink.addEventListener('click', function(){
@@ -157,7 +146,6 @@ zhaohuilink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="block";
   dariaoverlay.style.display="none";
-  violetoverlay.style.display="none";
 })
 
 darialink.addEventListener('click', function(){
@@ -171,19 +159,4 @@ darialink.addEventListener('click', function(){
   anthonyoverlay.style.display="none";
   zhaohuioverlay.style.display="none";
   dariaoverlay.style.display="block";
-  violetoverlay.style.display="none";
-})
-
-violetlink.addEventListener('click', function(){
-  sandraoverlay.style.display="none";
-  annieoverlay.style.display="none";
-  emilyoverlay.style.display="none";
-  fionaoverlay.style.display="none";
-  crystaloverlay.style.display="none";
-  cherilynoverlay.style.display="none";
-  elleoverlay.style.display="none";
-  anthonyoverlay.style.display="none";
-  zhaohuioverlay.style.display="none";
-  dariaoverlay.style.display="none";
-  violetoverlay.style.display="block";
 })

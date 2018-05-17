@@ -67,15 +67,15 @@ p{
 ul{
   list-style-type:none;
   margin:0px;
-  padding-top:75px;
+  padding-top:70px;
   position:fixed;
   left:1150px;
   animation-name: listslide;
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 
 li{
-  padding-top:49px;
+  padding-top:58px;
   text-align:left;
   width:1500px;
 }
@@ -86,9 +86,9 @@ li{
 }
 
 a:link{
-  padding-top:23px;
+  padding-top:27px;
   padding-left:200px;
-  padding-bottom:25px;
+  padding-bottom:30px;
   padding-right:600px;
   text-decoration:none;
   font-family: 'Londrina Solid';
@@ -103,19 +103,9 @@ a:visited{
   color:#ffffff;
 }
 
-@keyframes imgright {
-    0%   {margin-left:-1300px;}
-    100% {margin-left:120px;}
-}
-
 img{
   margin-top:100px;
   margin-left:120px;
-}
-
-@keyframes capright {
-  0%   {margin-left:-1000px;}
-  100% {margin-left:120px;}
 }
 
 #caption{
@@ -134,11 +124,8 @@ img{
 #caption p{
   margin-bottom:5px;
   font-size:20px;
-}
-
-@keyframes linkright {
-    0%   {left:-500px;}
-    100% {left:510px;}
+  width:840px;
+  margin-top:0px;
 }
 
 #caption a:link{
@@ -179,12 +166,6 @@ img{
   box-shadow: 10px 10px 5px #660033;
 }
 
-#link1{
-  animation-name: extend;
-  animation-duration: 1s;
-  background-color:#7070db;
-}
-
 @keyframes boxright {
     0%   {left:-2000px;}
     100% {left:0px;}
@@ -197,7 +178,11 @@ img{
   animation-duration: 2s;
 }
 
-/*right now, only sandra, but also, right now, always sandra! maybe letter spacing increase on the links? ok for them to go past where they need to, just make all the animations faster*/
+#link1{
+  animation-name: extend;
+  animation-duration: 3s;
+  background-color:#7070db;
+}
 
 #sandra{
   background-color:#7070db;
@@ -209,7 +194,7 @@ img{
 
 #link2{
   animation-name: extend;
-  animation-duration: 2s;
+  animation-duration: 5s;
   background-color:#ff80aa;
 }
 
@@ -224,7 +209,7 @@ img{
 
 #link3{
   animation-name: extend;
-  animation-duration: 2s;
+  animation-duration: 4s;
   background-color:#ffcc66;
 }
 
@@ -239,7 +224,7 @@ img{
 
 #link4{
   animation-name: extend;
-  animation-duration: 1s;
+  animation-duration: 3s;
   background-color:#80ff80;
 }
 
@@ -254,7 +239,7 @@ img{
 
 #link5{
   animation-name: extend;
-  animation-duration: 2s;
+  animation-duration: 5s;
   background-color:#4dd2ff;
 }
 
@@ -269,7 +254,7 @@ img{
 
 #link6{
   animation-name: extend;
-  animation-duration: 1s;
+  animation-duration: 4s;
   background-color:#cc99ff;
 }
 
@@ -284,7 +269,7 @@ img{
 
 #link7{
   animation-name: extend;
-  animation-duration: 2s;
+  animation-duration: 5s;
   background-color:#ffd633;
 }
 
@@ -299,7 +284,7 @@ img{
 
 #link8{
   animation-name: extend;
-  animation-duration: 1s;
+  animation-duration: 3s;
   background-color:#ff9999;
 }
 
@@ -314,7 +299,7 @@ img{
 
 #link9{
   animation-name: extend;
-  animation-duration: 2s;
+  animation-duration: 4s;
   background-color:#1affa3;
 }
 
@@ -329,27 +314,12 @@ img{
 
 #link10{
   animation-name: extend;
-  animation-duration: 1s;
+  animation-duration: 3s;
   background-color:#a64dff;
 }
 
 #daria{
   background-color:#a64dff;
-  width:100%;
-  height:980px;
-  position:absolute;
-  top:100px;
-  display:none;
-}
-
-#link11{
-  animation-name: extend;
-  animation-duration: 2s;
-  background-color:#ff99ff;
-}
-
-#violet{
-  background-color:#ff99ff;
   width:100%;
   height:980px;
   position:absolute;
