@@ -160,5 +160,9 @@ triggerwarninginfo.addEventListener('click', function() {
 var formsubmit = document.getElementById("formsubmit");
 formsubmit.addEventListener('click', function() {
   alert("Thank you for your willingness and bravery to share your story with us!");
+<<<<<<< HEAD
 >>>>>>> fc90fd1c534b8382daec487c4b3abdb20f60e0c5
+=======
+>>>>>>> violet
+>>>>>>> 959e1743cdb8820d8fabbae1d8c0a44889fe21a8
 })
