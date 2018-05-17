@@ -22,7 +22,9 @@ body {
     filter: drop-shadow(8px 4px 10px #333);
 }
 
-#return-to-main img {
+#return-to-main svg {
+    margin-top: 15px;
+    margin-right: 10px;
     margin-left: 10px;
-    margin-top: 10px;
+    filter: drop-shadow(8px 4px 10px #333);
 }
