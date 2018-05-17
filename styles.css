@@ -71,7 +71,7 @@ ul{
   position:fixed;
   left:1150px;
   animation-name: listslide;
-  animation-duration: 4s;
+  animation-duration: 0.85s;
 }
 
 li{
@@ -105,11 +105,11 @@ a:visited{
 
 img{
   margin-top:100px;
-  margin-left:190px;
+  margin-left:-78.5px;
 }
 
 #caption{
-  margin-left:190px;
+  margin-left:120px;
   color:#660033;
   width:100%;
 }
@@ -117,14 +117,14 @@ img{
 #caption h2{
   font-size:40px;
   margin-bottom:8px;
-  margin-top:8px;
+  margin-top:10px;
   text-transform: lowercase;
 }
 
 #caption p{
   margin-bottom:5px;
   font-size:20px;
-  width:840px;
+  width:740px;
   margin-top:0px;
 }
 
@@ -136,7 +136,7 @@ img{
   text-decoration:none;
   text-align:center;
   position:absolute;
-  top:810px;
+  top:835px;
   left: 510px;
   width:300px;
   background-color:white;
@@ -155,7 +155,7 @@ img{
   text-decoration:none;
   text-align:center;
   position:absolute;
-  top:810px;
+  top:835px;
   left: 510px;
   width:300px;
   background-color:white;
@@ -175,17 +175,18 @@ img{
   width:70%;
   position:absolute;
   animation-name: boxright;
-  animation-duration: 2s;
+  animation-duration: 0.7s;
+  transition-timing-function:ease-out;
 }
 
 #link1{
   animation-name: extend;
-  animation-duration: 3s;
-  background-color:#7070db;
+  animation-duration: 2s;
+  background-color:#8585e0;
 }
 
-#sandra{
-  background-color:#7070db;
+#annie{
+  background-color:#8585e0;
   width:100%;
   height:980px;
   position:absolute;
@@ -194,11 +195,11 @@ img{
 
 #link2{
   animation-name: extend;
-  animation-duration: 5s;
+  animation-duration: 2.5s;
   background-color:#ff80aa;
 }
 
-#annie{
+#sandra{
   background-color:#ff80aa;
   width:100%;
   height:980px;
@@ -207,13 +208,14 @@ img{
   display:none;
 }
 
+
 #link3{
   animation-name: extend;
-  animation-duration: 4s;
+  animation-duration: 3s;
   background-color:#ffcc66;
 }
 
-#emily{
+#fiona{
   background-color:#ffcc66;
   width:100%;
   height:980px;
@@ -224,11 +226,11 @@ img{
 
 #link4{
   animation-name: extend;
-  animation-duration: 3s;
+  animation-duration: 2.25s;
   background-color:#80ff80;
 }
 
-#fiona{
+#emily{
   background-color:#80ff80;
   width:100%;
   height:980px;
@@ -239,11 +241,11 @@ img{
 
 #link5{
   animation-name: extend;
-  animation-duration: 5s;
+  animation-duration: 2s;
   background-color:#4dd2ff;
 }
 
-#crystal{
+#anthony{
   background-color:#4dd2ff;
   width:100%;
   height:980px;
@@ -254,11 +256,11 @@ img{
 
 #link6{
   animation-name: extend;
-  animation-duration: 4s;
+  animation-duration: 2.5s;
   background-color:#cc99ff;
 }
 
-#cherilyn{
+#daria{
   background-color:#cc99ff;
   width:100%;
   height:980px;
@@ -269,7 +271,7 @@ img{
 
 #link7{
   animation-name: extend;
-  animation-duration: 5s;
+  animation-duration: 3s;
   background-color:#ffd633;
 }
 
@@ -284,11 +286,11 @@ img{
 
 #link8{
   animation-name: extend;
-  animation-duration: 3s;
+  animation-duration: 2s;
   background-color:#ff9999;
 }
 
-#anthony{
+#zhaohui{
   background-color:#ff9999;
   width:100%;
   height:980px;
@@ -299,11 +301,12 @@ img{
 
 #link9{
   animation-name: extend;
-  animation-duration: 4s;
+  animation-duration: 2.5s;
   background-color:#1affa3;
 }
 
-#zhaohui{
+
+#cherilyn{
   background-color:#1affa3;
   width:100%;
   height:980px;
@@ -314,11 +317,11 @@ img{
 
 #link10{
   animation-name: extend;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   background-color:#a64dff;
 }
 
-#daria{
+#crystal{
   background-color:#a64dff;
   width:100%;
   height:980px;
