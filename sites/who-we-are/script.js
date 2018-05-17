@@ -87,7 +87,7 @@ var other = [//list of name & link for other labels
   "Transphobia", "labels/other/transphobia.html"
 ];
 
-var resourceList = [//list of name, link & description for resources
+/*var resourceList = [//list of name, link & description for resources
   "Atticus Circle", "https://www.atticuscircle.org/","Dedicated to educating and mobilizing straight allies to advance equal rights for lesbians, gay, bisexual and transgender partners, parents and their children.",
   "Trans Family", "http://transfamily.org/", "TransFamily provides support, education, advocacy, and outreach for the transgendered community, families, friends, partners, and allies of all ages, through meetings, presentations, seminars, media outreach, and an emergency resource hotline.",
   "GLBTNearMe", "https://glbtnearme.org/", "Find local social and support resources within the LGBT community.",
@@ -105,8 +105,8 @@ var resourceList = [//list of name, link & description for resources
   "Beyound Ex-Gay", "https://beyondexgay.com/", "Community of survivors of “ex-gay” conversion therapy.",
   "Psychology Today", "https://www.psychologytoday.com/", "Trustworthy resource to find therapist and psychiatrist",
   "The Human Rights Campaign", "http://www.hrc.org/", "The leading LGBT civil rights organization, with information about LGBT people/issues and ways to get involved in the fight for equality.",
-];
-/*var resourceList = [//list of name, link & description for resources
+];*/
+var resourceList = [//list of name, link & description for resources
   "Atticus Circle", "#/","Dedicated to educating and mobilizing straight allies to advance equal rights for lesbians, gay, bisexual and transgender partners, parents and their children.",
   "Trans Family", "#", "TransFamily provides support, education, advocacy, and outreach for the transgendered community, families, friends, partners, and allies of all ages, through meetings, presentations, seminars, media outreach, and an emergency resource hotline.",
   "GLBTNearMe", "#", "Find local social and support resources within the LGBT community.",
@@ -124,7 +124,7 @@ var resourceList = [//list of name, link & description for resources
   "Beyound Ex-Gay", "#", "Community of survivors of “ex-gay” conversion therapy.",
   "Psychology Today", "#", "Trustworthy resource to find therapist and psychiatrist",
   "The Human Rights Campaign", "#", "The leading LGBT civil rights organization, with information about LGBT people/issues and ways to get involved in the fight for equality.",
-];*/
+];
 
 //globel vars for the library
 var camera, scene, renderer;
