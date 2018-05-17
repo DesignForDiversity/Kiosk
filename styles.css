@@ -105,11 +105,11 @@ a:visited{
 
 img{
   margin-top:100px;
-  margin-left:120px;
+  margin-left:190px;
 }
 
 #caption{
-  margin-left:120px;
+  margin-left:190px;
   color:#660033;
   width:100%;
 }
@@ -136,7 +136,7 @@ img{
   text-decoration:none;
   text-align:center;
   position:absolute;
-  top:880px;
+  top:810px;
   left: 510px;
   width:300px;
   background-color:white;
@@ -155,7 +155,7 @@ img{
   text-decoration:none;
   text-align:center;
   position:absolute;
-  top:880px;
+  top:810px;
   left: 510px;
   width:300px;
   background-color:white;
