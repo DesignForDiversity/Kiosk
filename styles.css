@@ -362,21 +362,6 @@ img{
 #link5 {
     animation-name: extend;
     animation-duration: 2s;
-    background-color: #4dd2ff;
-}
-
-#anthony {
-    background-color: #4dd2ff;
-    width: 100%;
-    height: 980px;
-    position: absolute;
-    top: 100px;
-    display: none;
-}
-
-#link6 {
-    animation-name: extend;
-    animation-duration: 2.5s;
     background-color: #cc99ff;
 }
 
@@ -389,13 +374,33 @@ img{
     display: none;
 }
 
+#link6 {
+    animation-name: extend;
+    animation-duration: 2.5s;
+    background-color: #4dd2ff;
+}
+
+
+#elle {
+    background-color: #4dd2ff;
+    width: 100%;
+    height: 980px;
+    position: absolute;
+    top: 100px;
+    display: none;
+}
+
+
+
 #link7 {
     animation-name: extend;
     animation-duration: 3s;
     background-color: #ffd633;
 }
 
-#elle {
+
+
+#zhaohui {
     background-color: #ffd633;
     width: 100%;
     height: 980px;
@@ -410,7 +415,7 @@ img{
     background-color: #ff9999;
 }
 
-#zhaohui {
+#cherilyn {
     background-color: #ff9999;
     width: 100%;
     height: 980px;
@@ -419,13 +424,14 @@ img{
     display: none;
 }
 
+
 #link9 {
     animation-name: extend;
     animation-duration: 2.5s;
     background-color: #1affa3;
 }
 
-#cherilyn {
+#crystal {
     background-color: #1affa3;
     width: 100%;
     height: 980px;
@@ -440,7 +446,7 @@ img{
     background-color: #a64dff;
 }
 
-#crystal {
+#anthony {
     background-color: #a64dff;
     width: 100%;
     height: 980px;
