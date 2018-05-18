@@ -83,6 +83,26 @@ p {
     right: 30px;
 }
 
+
+
+#lilpopup{
+  position:fixed;
+  top:30px;
+  left:640px;
+  width:300px;
+  font-family:'Roboto';
+  color: #660033;
+  display:none;
+}
+
+#lilpopup p{
+  margin:0px;
+  padding-top:1px;
+}
+
+
+
+
 @keyframes listslide {
     0% {
         left: -800px;

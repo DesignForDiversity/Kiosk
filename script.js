@@ -31,6 +31,28 @@ var zhaohuioverlay = document.getElementById('zhaohui');
 var darialink = document.getElementById('link5');
 var dariaoverlay = document.getElementById('daria');
 
+var lilpopup=document.getElementById('lilpopup');
+var popuplink=document.getElementById('popuplink');
+var visible=false;
+
+popuplink.addEventListener('click',function(){
+  if(visible==false){
+    lilpopup.style.display="block";
+    visible=true;
+  } else if (visible==true){
+    lilpopup.style.display="none";
+    visible=false;
+  }
+})
+
+function timedText(){
+  setTimeout(myTimeout1,3000)
+}
+function myTimeout1(){
+  lilpopup.style.display="none";
+  visible=false;
+}
+
 annielink.addEventListener('click', function(){
   sandraoverlay.style.display="none";
   annieoverlay.style.display="block";
