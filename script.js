@@ -46,7 +46,7 @@ popuplink.addEventListener('click',function(){
 })
 
 function timedText(){
-  setTimeout(myTimeout1,3000)
+  setTimeout(myTimeout1,2000)
 }
 function myTimeout1(){
   lilpopup.style.display="none";
