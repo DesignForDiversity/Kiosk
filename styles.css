@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Londrina';
+  src: url('fonts/LondrinaSolid-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.ttf'); /* IE9 Compat Modes */
+}
+
 header{
   width:100%;
   background-color:white;
@@ -34,12 +44,12 @@ header p{
 }
 
 h1{
-  font-family: 'Londrina Solid';
+  font-family: 'Londrina';
   font-style:normal;
 }
 
 h2{
-  font-family: 'Londrina Solid';
+  font-family: 'Londrina';
   font-style:normal;
 }
 
@@ -91,7 +101,7 @@ a:link{
   padding-bottom:30px;
   padding-right:600px;
   text-decoration:none;
-  font-family: 'Londrina Solid';
+  font-family: 'Londrina';
   color:#ffffff;
   font-size:35px;
   text-transform: lowercase;
@@ -99,7 +109,7 @@ a:link{
 
 a:visited{
   text-decoration:none;
-  font-family: 'Londrina Solid';
+  font-family: 'Londrina';
   color:#ffffff;
 }
 
@@ -129,7 +139,7 @@ img{
 }
 
 #caption a:link{
-  font-family: 'Londrina Solid';
+  font-family: 'Londrina';
   font-style:normal;
   font-size:50px;
   color:#660033;
@@ -148,7 +158,7 @@ img{
 }
 
 #caption a:visited{
-  font-family: 'Londrina Solid';
+  font-family: 'Londrina';
   font-style:normal;
   font-size:50px;
   color:#660033;
