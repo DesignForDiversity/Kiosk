@@ -11,7 +11,11 @@
     border-bottom-right-radius: 8px;
     height: 110px;
     width: 110px;
+<<<<<<< HEAD
     background-color: #FD81AA;
+=======
+    background-color: #ff80aa;
+>>>>>>> violet
     position: fixed;
     left: 0px;
     bottom: 200px;
