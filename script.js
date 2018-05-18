@@ -13,22 +13,22 @@ var emilyoverlay = document.getElementById('emily');
 var fionalink = document.getElementById('link3');
 var fionaoverlay = document.getElementById('fiona');
 
-var crystallink = document.getElementById('link10');
+var crystallink = document.getElementById('link9');
 var crystaloverlay = document.getElementById('crystal');
 
-var cherilynlink = document.getElementById('link9');
+var cherilynlink = document.getElementById('link8');
 var cherilynoverlay = document.getElementById('cherilyn');
 
-var ellelink = document.getElementById('link7');
+var ellelink = document.getElementById('link6');
 var elleoverlay = document.getElementById('elle');
 
-var anthonylink = document.getElementById('link5');
+var anthonylink = document.getElementById('link10');
 var anthonyoverlay = document.getElementById('anthony');
 
-var zhaohuilink = document.getElementById('link8');
+var zhaohuilink = document.getElementById('link7');
 var zhaohuioverlay = document.getElementById('zhaohui');
 
-var darialink = document.getElementById('link6');
+var darialink = document.getElementById('link5');
 var dariaoverlay = document.getElementById('daria');
 
 annielink.addEventListener('click', function(){
